@@ -1,5 +1,7 @@
 print("Bienvenido a mi calculadora")
 
+while true: 
+
 print("¿qué operación quierés realizar?")
 print("1. suma")   
 print("2. resta")
@@ -42,3 +44,8 @@ elif opcion == "4":
         
 else:
     print("operacón invalisa") 
+
+continuar = input("¿querés realizar otra operación? (si/no): ")
+
+if continuar = "no": 
+break 
